@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        
+</head>
+
+<body>
+
+    <!-- navbar section  -->
+    <section class="navbar-section container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 " href="../index.html">News <span
+                        class="text-primary-emphasis">[House]</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="text-decoration-none pe-4 text-primary-emphasis" href="../index.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-decoration-none text-primary-emphasis" href="blogs.html">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <hr class="text-primary container mt-0">
+
+    </section>
+
+
+
+    <!-- main content section  -->
+    <section class="blog-section">
+        <div class="container">
+            <h2 class="section-title text-al my-4">Latest Blog Posts</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="../Photos/images.jpg" class="card-img-top" alt="Blog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">What is Callback Function</h5>
+                            <p class="card-text">A callback function is a function that is passed as an argument to
+                                another function, which is then called inside the parent function...</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstCard">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="../Photos/mqdefault.jpg" class="card-img-top" alt="Blog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">What is Javascript?</h5>
+                            <p class="card-text">JavaScript is a scripting or programming language that allows you to
+                                implement complex features on web pages. This is an high level programming language...
+                            </p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#secondCard">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="../Photos/chatgpt.jpg" class="card-img-top" alt="Blog 3">
+                        <div class="card-body">
+                            <h5 class="card-title">What is ChatGPT?</h5>
+                            <p class="card-text">ChatGPT is an artificial intelligence chatbot developed by OpenAI. It
+                                is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thirdCard">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- Modals -->
+        <!-- First card modal  -->
+        <div class="modal fade" id="firstCard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="../Photos/images.jpg" class="w-100" alt="...">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">What is Callback Function?</h1>
+                        <p>In JavaScript, a callback function is a function that is passed as an argument to another
+                            function, which is then called inside the parent function. The callback function is
+                            typically used to execute code after a certain task has been completed or in response to an
+                            event.</p><br>
+
+                        <p>Example..</p>
+                        <p>If you wanted to download data from a server (which may take long durations of time), it
+                            would be wasteful for your program or function to just freeze while you waited for the data
+                            to be fetched. Instead, it's common practice to execute the fetching operation in the
+                            background.</p>
+
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Benefits of Callback Function.</h1>
+                        <p>Callback functions are needed because many JavaScript actions are asynchronous. Instead, it
+                            executes in the background while the rest of the code runs. A callback's purpose is to
+                            execute code in response to an event. These events can be like mouse clicks; with callback,
+                            we can add text at the end of each statement like"execute this code every time the user
+                            clicks a key on the keyboard."</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- second card modal  -->
+        <div class="modal fade" id="secondCard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="../Photos/mqdefault.jpg" class="w-100" alt="...">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">What is Javascript?</h1>
+                        <p>JavaScript (js) is a light-weight object-oriented programming language which is used by
+                            several websites for scripting the webpages. It is an interpreted, full-fledged programming
+                            language that enables dynamic interactivity on websites when applied to an HTML document. It
+                            was introduced in the year 1995 for adding programs to the webpages in the Netscape
+                            Navigator browser. Since then, it has been adopted by all other graphical web browsers. With
+                            JavaScript, users can build modern web applications to interact directly without reloading
+                            the page every time.</p>
+
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Application of JavaScript.</h1>
+                        <p>JavaScript is used to create interactive websites. It is mainly used for:</p>
+                        <ul>
+                            <li>Client-side validation,</li>
+                            <li>Dynamic drop-down menus,</li>
+                            <li>Displaying date and time,</li>
+                            <li>Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box
+                                and prompt dialog box),
+                            </li>
+                            <li>Displaying clocks etc.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- third card modal  -->
+        <div class="modal fade" id="thirdCard" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="../Photos/chatgpt.jpg" class="w-100" alt="...">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">What is ChatGPT?</h1>
+                        <p>ChatGPT is an AI language model developed by OpenAI, which is capable of generating
+                            human-like text based on the input it is given. The model is trained on a large corpus of
+                            text data and can generate responses to questions, summarize long texts, write stories and
+                            much more. It is often used in conversational AI applications to simulate a human-like
+                            conversation with users.</p>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">How to use this?</h1>
+                        <p>Ah, yes, the most simple answer of all. All you have to do is open chat.openai.com(Opens in a
+                            new tab) in your browser. You'll be asked to make an account and then, boom, you're plugged
+                            in. The tool is completely free to use, but there are rumors that we might get a more
+                            powerful paid version in the future. If you want to get better at using the tool, there are
+                            classes for that(Opens in a new tab), too.</p>
+
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">How does it works?</h1>
+                        <p>As an AI language model, ChatGPT works by using natural language processing (NLP) and machine
+                            learning algorithms to understand and generate human-like responses to user inputs. The
+                            model has been trained on a large dataset of human language and can generate responses based
+                            on that training.
+
+                            When a user inputs a question or statement, ChatGPT analyzes the text and uses its
+                            algorithms to generate a response that it believes is most appropriate based on the input.
+                            The model is designed to improve over time as it continues to receive input and feedback
+                            from users.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- bootstrap script link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
